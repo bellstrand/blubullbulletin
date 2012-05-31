@@ -1,0 +1,31 @@
+/**
+* Description: Sample theme for site which extends the Lydia grid-theme.
+*/
+@import url(../../../themes/grid/style.css);
+
+html{background-color:#C5D8F0;}
+body{background-color:#C5D8F0;}
+#outer-wrap-header{background-color:#C5D8F0;border-bottom:2px solid #77A4D7;}
+#header{background-color:#C5D8F0;}
+#outer-wrap-footer{background-color:#C5D8F0;}
+a{color:#436370;}
+#inner-wrap-triptych{
+	height:auto;
+}
+#outer-wrap-header{
+	background:url('logotype_extender.png') repeat-x bottom;
+}
+#navbar ul.menu li a.selected{
+	background: none repeat scroll 0% 0% rgb(255,255,255);
+	border: 2px solid #77A4D7;
+}
+#navbar ul.menu li a:hover{
+	background: none repeat scroll 0% 0% rgb(255,255,255);
+	border: 2px solid #77A4D7;
+}
+a{
+	color:#243140;
+}
+a:hover{
+	color:#243140;
+}
